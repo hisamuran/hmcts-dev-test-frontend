@@ -6,7 +6,7 @@
 but ultimately it is up to you -->
 
 {% block content %}
-  <h1 class="govuk-heading-xl">Welcome to your dev test!</h1>
+  <h1 class="govuk-heading-xl">Welcome to your dev test! - Create Task</h1>
 
   <!-- The freedom is yours. You can design the solution however you like, however there is a starting point provided
   to ensure you have both services running. You may want to make use of the Gov UK Components:
@@ -18,85 +18,17 @@ but ultimately it is up to you -->
       rows: [
         {
           key: {
-            text: "Create task"
+            text: "Go back"
           },
           value: {
-            text: "Create a new task"
+            text: "Go back to the home page"
           },
           actions: {
             items: [
               {
-                href: "/create-task",
-                text: "Create a task",
-                visuallyHiddenText: "create a task"
-              }
-            ]
-          }
-        },
-        {
-          key: {
-            text: "Retrieve task"
-          },
-          value: {
-            text: "Retrieve a task by ID"
-          },
-          actions: {
-            items: [
-              {
-                href: "/retrieve-task",
-                text: "Retrieve a task",
-                visuallyHiddenText: "retrieve a task"
-              }
-            ]
-          }
-        },
-        {
-          key: {
-            text: "Retrieve all tasks"
-          },
-          value: {
-            text: "Retrieve all tasks"
-          },
-          actions: {
-            items: [
-              {
-                href: "/retrieve-all-tasks",
-                text: "Retrieve all tasks",
-                visuallyHiddenText: "retrieve all tasks"
-              }
-            ]
-          }
-        },
-        {
-          key: {
-            text: "Update task status"
-          },
-          value: {
-            text: "Update the status of a task"
-          },
-          actions: {
-            items: [
-              {
-                href: "#",
-                text: "Update task status",
-                visuallyHiddenText: "update task status"
-              }
-            ]
-          }
-        },
-        {
-          key: {
-            text: "Delete task"
-          },
-          value: {
-            text: "Delete a task by ID"
-          },
-          actions: {
-            items: [
-              {
-                href: "#",
-                text: "Delete task",
-                visuallyHiddenText: "delete task"
+                href: "/",
+                text: "Go back",
+                visuallyHiddenText: "Go back"
               }
             ]
           }
