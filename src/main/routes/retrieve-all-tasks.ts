@@ -7,7 +7,7 @@ export default function (app: Application): void {
       // An second example, rendering another example case from the backend
       const response = await axios.get('http://localhost:4000/retrieve-all-tasks');
       console.log(response.data);
-      res.render('retrieve-all-tasks', { "example": response.data });
+      res.render('retrieve-all-tasks', { "caseList": response.data });
     } catch (error) {
       console.error('Error making request:', error);
       res.render('retrieve-all-tasks', {});
